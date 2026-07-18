@@ -1,8 +1,8 @@
 # PROGRESS
 
-- **Phase:** LENGTH_REWRITE（字数返工）
-- **Gate:** ≥2500 字才算成稿；目标 3000–4500；`scripts/wordcount_gate.py`
-- **Full-length done:** 第1–10章 ✅
-- **Still SHORT:** 第11–60章（情节骨架在，字数未达标）
-- **Next:** 扩写第11–15章
-- **Policy:** 停写新短章；先质量后数量
+- **Phase:** LENGTH_REWRITE → VOL1_QUALITY
+- **Gate:** ≥2500 字；`scripts/wordcount_gate.py`
+- **Full-length done:** 第1–20章 ✅
+- **Still SHORT:** 第21–60章
+- **Next:** 扩写第21–30章（卷一质量完结）
+- **Policy:** 先质量后数量；每5–10章 commit
