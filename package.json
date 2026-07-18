@@ -1,0 +1,34 @@
+{
+  "name": "moyi-gomoku",
+  "version": "1.0.0",
+  "description": "墨弈 · 在线双人五子棋",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "node --test test/game.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xumoons/cusorworkspace.git"
+  },
+  "keywords": [
+    "gomoku",
+    "五子棋",
+    "socket.io"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xumoons/cusorworkspace/issues"
+  },
+  "homepage": "https://github.com/xumoons/cusorworkspace#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "socket.io-client": "^4.8.3"
+  }
+}

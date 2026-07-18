@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>墨弈 · 在线五子棋</title>
+    <meta name="description" content="墨弈 —— 简洁优雅的在线双人五子棋对弈" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Instrument+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="wash wash-a"></div>
+      <div class="wash wash-b"></div>
+      <div class="grain"></div>
+    </div>
+
+    <main class="app">
+      <section id="lobby" class="view lobby">
+        <header class="brand">
+          <p class="brand-mark">墨弈</p>
+          <h1 class="brand-tagline">一子落定，五连成势</h1>
+          <p class="brand-desc">创建房间，邀友对弈。黑白轮转，先成五子者胜。</p>
+        </header>
+
+        <div class="lobby-actions">
+          <button type="button" id="btn-create" class="btn btn-primary">创建房间</button>
+          <div class="join-row">
+            <label class="sr-only" for="join-code">房间号</label>
+            <input
+              id="join-code"
+              class="input"
+              type="text"
+              maxlength="6"
+              placeholder="输入房间号"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <button type="button" id="btn-join" class="btn btn-ghost">加入</button>
+          </div>
+          <p id="lobby-error" class="error" hidden></p>
+        </div>
+      </section>
+
+      <section id="game" class="view game" hidden>
+        <header class="game-top">
+          <div class="room-meta">
+            <p class="room-label">房间</p>
+            <p class="room-code" id="room-code">------</p>
+            <button type="button" id="btn-copy" class="link-btn" title="复制房间号">复制</button>
+          </div>
+          <button type="button" id="btn-leave" class="btn btn-ghost btn-small">离开</button>
+        </header>
+
+        <div class="status-bar" id="status-bar">
+          <span class="status-text" id="status-text">等待对手加入…</span>
+        </div>
+
+        <div class="board-stage">
+          <div class="players">
+            <div class="player" id="player-black" data-color="black">
+              <span class="stone stone-black" aria-hidden="true"></span>
+              <div>
+                <p class="player-name">黑棋</p>
+                <p class="player-role" id="role-black">—</p>
+              </div>
+            </div>
+            <div class="player" id="player-white" data-color="white">
+              <span class="stone stone-white" aria-hidden="true"></span>
+              <div>
+                <p class="player-name">白棋</p>
+                <p class="player-role" id="role-white">—</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="board-wrap">
+            <canvas id="board" width="600" height="600" aria-label="五子棋棋盘"></canvas>
+          </div>
+        </div>
+
+        <div class="game-footer">
+          <p class="notice" id="notice" hidden></p>
+          <button type="button" id="btn-rematch" class="btn btn-primary" hidden>再战一局</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
