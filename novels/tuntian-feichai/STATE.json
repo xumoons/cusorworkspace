@@ -1,33 +1,23 @@
 {
   "title": "吞天从废柴开始",
-  "volume": 1,
-  "current_chapter": 30,
-  "next_chapter": 31,
+  "volume": 2,
+  "current_chapter": 45,
+  "next_chapter": 46,
   "protagonist": {
     "name": "陈渊",
-    "realm": "金丹中",
-    "mark_level": "III",
-    "mark_note": "颈侧可见；荒域屏蔽暂缓清道钉死",
-    "location": "乱星荒域，出发往赤砂城",
-    "public_status": "青云宗通缉；『吞天祭品』名号外传",
-    "allies": ["苏晚（互欠）", "阿石（跟班阵修）"],
-    "enemies_active": ["青玄", "周长老（重创）", "清道者（白裁线）"],
-    "devoured_summary": "功法/本能/半金丹本源/荒兽核/三残宝本源/追兵金丹边角等",
-    "pending_hooks": [
-      "赤砂城拆祭",
-      "道心可食警告",
-      "苏晚汇合/族人线",
-      "无面像记录",
-      "清道者首领『赤砂城见』"
-    ]
+    "realm": "金丹中（卷二中段，临近元婴临界线）",
+    "mark_level": "III / III+",
+    "location": "盐泽线 / 活祭链中段",
+    "allies": ["苏晚", "阿石", "小蔓"],
+    "enemies_active": ["白裁", "青玄", "清道者"]
   },
-  "world": {
-    "qingyun_sect_alert": "wanted",
-    "cleaner_attention": "active_hunt_pending",
-    "suwan_contract": "strained",
-    "living_sacrifice_network": "revealed"
+  "quality": {
+    "gate": 2500,
+    "full_length_through": 45,
+    "vol1_publishable": true,
+    "vol2_publishable": false
   },
   "vol1_complete": true,
-  "series_target_chapters": 150,
-  "volumes_complete": [1]
+  "vol2_complete": false,
+  "series_target_chapters": 150
 }
