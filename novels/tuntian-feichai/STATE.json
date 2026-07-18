@@ -1,0 +1,20 @@
+{
+  "title": "吞天从废柴开始",
+  "volume": 5,
+  "current_chapter": 150,
+  "next_chapter": null,
+  "series_complete": true,
+  "series_target_chapters": 150,
+  "volumes_complete": [1, 2, 3, 4, 5],
+  "quality": {
+    "gate": 2500,
+    "full_length_through": 150,
+    "all_volumes_publishable": true
+  },
+  "ending": {
+    "rewrite_pruning_rules": true,
+    "choice_not_to_devour": true,
+    "realm": "吞天散仙",
+    "epilogue": "祭坛熄灭 + 淡纹少年"
+  }
+}
