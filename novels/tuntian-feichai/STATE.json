@@ -1,43 +1,39 @@
 {
   "title": "吞天从废柴开始",
   "volume": 1,
-  "current_chapter": 10,
-  "next_chapter": 11,
+  "current_chapter": 20,
+  "next_chapter": 21,
   "protagonist": {
     "name": "陈渊",
-    "realm": "筑基初",
-    "mark_level": "II",
-    "mark_note": "衣物难全遮，需高领；曾被天外注视",
-    "location": "青云宗外门（逃亡中）",
-    "public_status": "外门大比冠军；周长老下令缉拿",
-    "allies": ["苏晚（利益同盟）"],
-    "enemies_active": ["赵虎", "赵狂", "周长老", "执法堂"],
+    "realm": "伪丹（不稳）",
+    "mark_level": "III",
+    "mark_note": "蔓延至颈侧；清道者可感应",
+    "location": "逃离青云宗中",
+    "public_status": "全宗通缉",
+    "allies": ["苏晚（互欠性命）"],
+    "enemies_active": ["周长老（重创）", "青玄", "执法堂", "清道者（初现）"],
     "devoured": [
-      "裂风诀残韵",
-      "废灵草残机",
-      "浑浊灵液",
-      "储物残韵(微弱空间感知)",
-      "草木残晶",
-      "力量传导本能",
-      "步法残韵",
-      "筑基感悟",
-      "裂风完整逻辑",
-      "半枚锁魂筑基丹(滤后催化剂)",
-      "隐匿呼吸法(半)"
+      "隐匿呼吸法(完整)",
+      "祭阵边角溢散",
+      "禁制锁意",
+      "烈阳掌逻辑",
+      "追踪印废力",
+      "阵纹废节点",
+      "契约溢散力",
+      "半条金丹本源"
     ],
     "pending_hooks": [
-      "苏晚约藏经阁西廊子时",
-      "祭厅地下通侧殿",
-      "换名残笔像姓苏",
-      "药渣场不正常之亮",
-      "清道者注视一闪",
-      "周长老活祭升级令"
+      "逃出生天地图+冷玉信物",
+      "清道者白面具标记",
+      "伪丹需定期吞补稳固",
+      "周长老未死",
+      "拆活祭网络的动机已立"
     ]
   },
   "world": {
-    "qingyun_sect_alert": "high",
-    "cleaner_attention": "brief_glance",
-    "suwan_contract": "active_known_to_mc"
+    "qingyun_sect_alert": "critical",
+    "cleaner_attention": "marked",
+    "suwan_contract": "strained_after_rescue"
   },
   "vol1_complete": false
 }

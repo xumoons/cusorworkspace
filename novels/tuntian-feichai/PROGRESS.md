@@ -1,8 +1,8 @@
 # PROGRESS
 
 - **Phase:** VOL1_WRITING
-- **Last finished chapter:** 10
-- **Next chapter:** 11
+- **Last finished chapter:** 20
+- **Next chapter:** 21
 - **Vol1 complete:** no
-- **Last commit batch:** ch5-10
-- **Notes:** 上半卷（外门翻盘）成稿完成。进入内门杀局。
+- **Last commit batch:** ch11-20 pending push
+- **Notes:** 内门杀局完成。进入离宗升维（21-30）。
