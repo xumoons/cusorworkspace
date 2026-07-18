@@ -1,9 +1,13 @@
 # PROGRESS
 
-- **Phase:** VOL2_QUALITY_REWRITE
-- **Gate:** ≥2500 字
-- **Full-length done:** 第1–45章 ✅
-- **Vol1 publishable:** YES（1–30）
-- **Still SHORT:** 第46–60章
-- **Next:** 扩写第46–60章 → 卷三细纲+开写61章
-- **Policy:** 先质量后数量；每批 commit
+- **Phase:** SERIES_COMPLETE
+- **Gate:** ≥2500 字 / 章
+- **Chapters:** 1–150 全部成稿并通过门禁
+- **Volumes:**
+  - 卷一《祭品逆修》1–30 ✅
+  - 卷二《乱星拆祭》31–60 ✅
+  - 卷三《天枢总祭》61–90 ✅
+  - 卷四《古域天门》91–120 ✅
+  - 卷五《修剪与反吞》121–150 ✅
+- **Ending locked delivered:** 改写修剪规则；可吞亦可不吞；吞天散仙；祭坛熄灭+淡纹少年传火
+- **Next:** 维护性润色（可选），不再开新坑
